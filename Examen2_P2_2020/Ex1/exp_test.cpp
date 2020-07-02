@@ -2,7 +2,7 @@
 #include "VExp.h"
 #include "VExp__Syms.h"
 
-#define FINAL 0x0
+#define FINAL 0x8
 
 void reset(VExp &vexp)
 {
