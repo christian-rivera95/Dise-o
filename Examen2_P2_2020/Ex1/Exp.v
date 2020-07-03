@@ -5,12 +5,16 @@ module Exp(
     input [31:0] n,
     output [31:0] res
 );
-    reg [31:0]y;
-    reg[31:0]final;
-    reg [3:0]cs; /* verilator publics */
-    reg [3:0]ns;
+    reg [31:0] y;
+    reg [31:0] nx;
+    reg [31:0] nn;
 
-    assign res = final;
+    reg[31:0]result;
+    
+    reg [3:0] cs /* verilator public */; 
+    reg [3:0] ns;
+
+    assign res = result;
 
     //current state
     always @(*)begin
@@ -34,26 +38,30 @@ module Exp(
 
     always @(*)begin
         case (cs)
+            4'd0:begin
+                nx = x;
+                nn = n;
+            end
             4'd1:begin
-                y <= 32'd1;
+                y = 32'd1;
             end
             4'd2:begin
-               final <= 32'd1;
+               result = 32'd1;
             end
             4'd4:begin
-               x <= x*x;
-               n <= n/x;
+               nx = nx*nx;
+               nn = nn/nx;
             end
             4'd5:begin
-              y <= x*y;
-              x = x*x;
-              n = (n-1) / 2;
+              y = nx*y;
+              nx = nx*nx;
+              nn = (nn-1) / 2;
             end
             4'd8:begin
-                final <= 
+                result = nx * y;
             end
             default:begin
-                final <= x*y;
+                result = nx * y;
             end 
         endcase
     end
