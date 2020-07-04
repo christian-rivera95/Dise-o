@@ -1,0 +1,3 @@
+/Users/christianrivera/Downloads/vga_text_keypad_sample/build/CMakeFiles/rebuild_cache.dir
+/Users/christianrivera/Downloads/vga_text_keypad_sample/build/CMakeFiles/edit_cache.dir
+/Users/christianrivera/Downloads/vga_text_keypad_sample/build/CMakeFiles/VGATest.dir

@@ -1,0 +1,93 @@
+Performing C++ SOURCE FILE Test _mno_cet failed with the following output:
+Change Dir: /Users/christianrivera/Downloads/vga_text_keypad_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9c647/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_9c647.dir/build.make CMakeFiles/cmTC_9c647.dir/build
+Building CXX object CMakeFiles/cmTC_9c647.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -D_mno_cet -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -mno-cet -o CMakeFiles/cmTC_9c647.dir/src.cxx.o -c /Users/christianrivera/Downloads/vga_text_keypad_sample/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-mno-cet'
+make[1]: *** [CMakeFiles/cmTC_9c647.dir/src.cxx.o] Error 1
+make: *** [cmTC_9c647/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _Wno_bool_operation failed with the following output:
+Change Dir: /Users/christianrivera/Downloads/vga_text_keypad_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c887f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c887f.dir/build.make CMakeFiles/cmTC_c887f.dir/build
+Building CXX object CMakeFiles/cmTC_c887f.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -D_Wno_bool_operation -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -Wno-bool-operation -o CMakeFiles/cmTC_c887f.dir/src.cxx.o -c /Users/christianrivera/Downloads/vga_text_keypad_sample/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-bool-operation'; did you mean '-Wno-bool-conversion'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_c887f
+/Library/Python/2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c887f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -D_Wno_bool_operation -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c887f.dir/src.cxx.o  -o cmTC_c887f 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _Wno_tautological_bitwise_compare failed with the following output:
+Change Dir: /Users/christianrivera/Downloads/vga_text_keypad_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e9c88/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e9c88.dir/build.make CMakeFiles/cmTC_e9c88.dir/build
+Building CXX object CMakeFiles/cmTC_e9c88.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -D_Wno_tautological_bitwise_compare -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -Wno-tautological-bitwise-compare -o CMakeFiles/cmTC_e9c88.dir/src.cxx.o -c /Users/christianrivera/Downloads/vga_text_keypad_sample/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-tautological-bitwise-compare' [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_e9c88
+/Library/Python/2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9c88.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -D_Wno_tautological_bitwise_compare -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e9c88.dir/src.cxx.o  -o cmTC_e9c88 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _Wno_unused_but_set_variable failed with the following output:
+Change Dir: /Users/christianrivera/Downloads/vga_text_keypad_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b05e0/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b05e0.dir/build.make CMakeFiles/cmTC_b05e0.dir/build
+Building CXX object CMakeFiles/cmTC_b05e0.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -D_Wno_unused_but_set_variable -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -Wno-unused-but-set-variable -o CMakeFiles/cmTC_b05e0.dir/src.cxx.o -c /Users/christianrivera/Downloads/vga_text_keypad_sample/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-unused-but-set-variable'; did you mean '-Wno-unused-const-variable'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_b05e0
+/Library/Python/2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b05e0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -D_Wno_unused_but_set_variable -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b05e0.dir/src.cxx.o  -o cmTC_b05e0 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _mt failed with the following output:
+Change Dir: /Users/christianrivera/Downloads/vga_text_keypad_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_96469/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_96469.dir/build.make CMakeFiles/cmTC_96469.dir/build
+Building CXX object CMakeFiles/cmTC_96469.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -D_mt -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_96469.dir/src.cxx.o -c /Users/christianrivera/Downloads/vga_text_keypad_sample/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_96469
+/Library/Python/2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96469.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -D_mt -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_96469.dir/src.cxx.o  -o cmTC_96469  -mt 
+clang: error: unknown argument: '-mt'
+make[1]: *** [cmTC_96469] Error 1
+make: *** [cmTC_96469/fast] Error 2
+
+
+Source file was:
+int main() {return 0;}
+
+Performing C++ SOURCE FILE Test _latomic failed with the following output:
+Change Dir: /Users/christianrivera/Downloads/vga_text_keypad_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_44dd7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_44dd7.dir/build.make CMakeFiles/cmTC_44dd7.dir/build
+Building CXX object CMakeFiles/cmTC_44dd7.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -D_latomic -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_44dd7.dir/src.cxx.o -c /Users/christianrivera/Downloads/vga_text_keypad_sample/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_44dd7
+/Library/Python/2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44dd7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -D_latomic -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_44dd7.dir/src.cxx.o  -o cmTC_44dd7  -latomic 
+ld: library not found for -latomic
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_44dd7] Error 1
+make: *** [cmTC_44dd7/fast] Error 2
+
+
+Source file was:
+int main() {return 0;}
+

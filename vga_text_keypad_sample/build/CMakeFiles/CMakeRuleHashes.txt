@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+095159fdb2c571711162d775387bf4e9 CMakeFiles/VGATest.dir/VVGATest.dir/VVGATest.cpp
+42bbafebf61c8c50b8125ffa097774c6 CMakeFiles/VGATest.dir/VVGATest.dir/VVGATest_copy.cmake
